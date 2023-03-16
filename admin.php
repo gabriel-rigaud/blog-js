@@ -199,6 +199,5 @@ else {
     </main>
 
     <?php include 'php/include/footer.php' ; ?>
-    
 </body>
 </html>

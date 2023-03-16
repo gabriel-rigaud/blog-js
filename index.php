@@ -30,7 +30,7 @@
             <h1 class="titre_h1_index">Prog<span class="titre">'Blog</span></h1>
             <h3 >Le blog sur la programmation</h3>
             <div class="div_index">
-                <p>Vous êtes débutant en Programmation, en Hacking ou en informatique de façon générale ? Vous souhaitez apprendre la programmation ? Ce blog  est fait pour vous.</p>
+                <p>Vous êtes débutant en Programmation, ou en informatique de façon générale ? Vous souhaitez apprendre la programmation ? Ce blog  est fait pour vous.</p>
                 <p>Nous allons voir ensemble les concepts de programmation et les systèmes se cachant derrière les applications et sites web que vous utilisez tout les jours.</p>
                 <p>Si vous bloquez sur un concept de programmation, vous trouverez probablement une réponse sur ce site. Nous publions des articles très régulièrement. Ceux-ci ont pour objectif de répondre à une question ou de résoudre un problème que vous pouvez rencontrer.</p>
             </div>
