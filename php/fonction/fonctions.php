@@ -3,6 +3,7 @@
 function connexionPDO() {
     try {
         $bd = new PDO('mysql:host=localhost;dbname=blog;charset=utf8','root', '');
+        #$bd = new PDO('mysql:host=localhost;dbname=mehdi-douib_blog;charset=utf8','med', 'Wg2@m1c48');
     } catch (PDOException $e) {
         echo 'Échec de la connexion : ' . $e->getMessage();
         exit;
@@ -24,11 +25,5 @@ function recuperation_join($base,$table,$table2,$table_join1,$table_join2,$param
     $resultat = $requete->fetchall();
     return $resultat;
 }
-
-
-
-
-
-
 
 ?>

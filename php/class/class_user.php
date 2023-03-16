@@ -15,7 +15,11 @@
                         {
                             $bdd = new PDO("mysql:host=localhost;dbname=$dbname", 'root', '', [PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_OBJ, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);                   
                             $this->bdd = $bdd;
+                            #$bdd = new PDO("mysql:host=localhost;dbname=$dbname", 'med', 'Wg2@m1c48', [PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_OBJ, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);                   
+                            #$this->bdd = $bdd;
+                            
                         }
+                        
                     catch(PDOException $e)//affiche une erreur si mauvais entrée de la bdd
                         {
                             $error = $e->getMessage();
