@@ -204,7 +204,7 @@ else {
     
     </main>
 
-    <?php include 'php/include/footer.php' ; ?>
+    <?php include 'php/include/footer.php'; ?>
     
 </body>
 </html>

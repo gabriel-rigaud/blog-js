@@ -129,7 +129,7 @@
         <!-- SI UTILISATEUR CONNECTE  -->
         <?php if(isset($_SESSION["user"]->id)) :?>
 
-        <form action="php/traitement/formulaire_commentaires.php?id=<?= $_GET['id'] ?>" method="POST" class="m-4"> 
+        <form action="php/traitement/formulaire_commentaires.php?id=<?= $_GET['id'] ?>" method="POST" class="m-4">
             <div class="form-group">
                 <label for="commentaire">Votre commentaire :</label>
                 <textarea name="commentaire" id="commentaire" cols="30" rows="10" class="form-control"></textarea>
